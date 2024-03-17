@@ -82,7 +82,7 @@ public class Cliente {
 		
 		for(Aluguel aluguel : dvdsAlugados) {
 			
-			resultado += "\t" + aluguel.getDVD().getTítulo() + "\t R$ " + this.calcularValorAluguel(aluguel) + fimDeLinha;
+			resultado += "\t" + aluguel.getDVD().getTitulo() + "\t R$ " + this.calcularValorAluguel(aluguel) + fimDeLinha;
 			valorTotal += this.calcularValorAluguel(aluguel);
 		}
 		
