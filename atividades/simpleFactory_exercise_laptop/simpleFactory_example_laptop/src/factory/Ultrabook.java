@@ -15,4 +15,10 @@ public class Ultrabook implements Laptop {
 		
 	}
 
+	@Override
+	public boolean isNull() {
+		
+		return false;
+	}
+
 }

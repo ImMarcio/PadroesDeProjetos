@@ -13,5 +13,10 @@ public class Standard implements Laptop {
 		System.out.println("Executando os testes em um Normal Laptop");
 
 	}
+	@Override
+	public boolean isNull() {
+		
+		return false;
+	}
 
 }

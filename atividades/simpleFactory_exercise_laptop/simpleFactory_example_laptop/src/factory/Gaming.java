@@ -10,6 +10,14 @@ public class Gaming implements Laptop {
 	public void runTests() {
 		System.out.println("Executando os tetes em um Gaming Laptop");
 
+		
 	}
+	@Override
+	public boolean isNull() {
+		
+		return false;
+	}
+	
+	
 
 }

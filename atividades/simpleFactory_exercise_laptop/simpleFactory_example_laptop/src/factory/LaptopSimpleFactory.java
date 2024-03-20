@@ -13,7 +13,7 @@ public class LaptopSimpleFactory {
 		else if (laptopType.equalsIgnoreCase("ultrabook"))
 			return new Ultrabook();
 		else
-			return null;
+			return new nullLaptop();
 		
 	}
 }
